@@ -1,9 +1,15 @@
 body {
     background-color: rgb(253, 251, 251);
     font-size: 25px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 40px;
 }
 
 #cabecalho {
+    background-color: brown;
+    color: aliceblue;
+    position: fixed;
     top: 0;
     border: 1px solid black;
 }
@@ -11,4 +17,24 @@ body {
 #minha_foto {
     margin: 5px;
     padding: 1px;
+}
+
+.lado-esquerdo {
+    display: inline;
+    text-align: left;
+}
+
+.lado-direito {
+    display: inline;
+}
+
+#rodape {
+    display: block;
+}
+
+table, tr, td, th{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    margin: 2em;
 }
