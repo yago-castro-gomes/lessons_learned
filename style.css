@@ -1,7 +1,14 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 25px;
 }
 
 #cabecalho {
     top: 0;
+    border: 1px solid black;
+}
+
+#minha_foto {
+    margin: 5px;
+    padding: 1px;
 }
