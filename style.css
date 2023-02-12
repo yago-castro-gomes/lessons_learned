@@ -15,8 +15,22 @@ body {
 }
 
 #minha_foto {
-  margin: 5px;
+  margin: 20px;
   padding: 1px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  border: 1px solid black;
+  border-radius: 100%;
+  
+}
+
+#link {
+  position: absolute;
+  font-size: 20px;
+  left: 45%;
+  top: 100px;
+
 }
 
 .lado-esquerdo {
@@ -25,6 +39,10 @@ body {
   margin-right: 1000px;
   margin-bottom: 5px;
   top: 1px;
+}
+
+p {
+  margin: 40px;
 }
 
 .lado-direito {
@@ -49,4 +67,13 @@ table , tr , td , th {
 
 table {
   margin: auto;
+}
+
+#tabela {
+  margin-bottom: 10em;
+  background-color: beige;
+}
+
+#licoes_aprendidas {
+  margin-top: 150px;
 }
